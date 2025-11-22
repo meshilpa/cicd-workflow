@@ -1,9 +1,12 @@
-name: Print message
+name: Print Message
+
 on:
-   push:
-Jobs:
-  Say-hello:
-     runs-on: ubuntu-latest
-  steps:
-     -name: print amessage
-      run: echo "Hello: A push detected in repo"
+    push:
+
+jobs:
+    say-hello:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Print a Message
+              run: echo "Hello! A push detected in repo"
