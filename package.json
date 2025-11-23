@@ -1,0 +1,31 @@
+{
+  "name": "cicd-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meshilpa/cicd-workflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/meshilpa/cicd-workflow/issues"
+  },
+  "homepage": "https://github.com/meshilpa/cicd-workflow#readme",
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+  
+}
